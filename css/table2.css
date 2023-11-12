@@ -1,0 +1,36 @@
+
+
+/* Styling for the caption */
+caption{
+    background-color: orange;
+    margin: 20px auto;
+    width: 50%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Lucida Sans',;
+}
+ /* Margin top for the table to give space btwn the table and the body */
+table{
+    width: 80%;
+    margin: auto;
+}
+/* Style to give the th and td borders */
+table, th, td{
+    border-top: 1px solid  lightgray;
+    border-collapse: collapse;
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* Styling for the table head */
+th{
+    background-color: dodgerblue;
+    font-size: 18px;
+    text-align: center;
+    color:white;
+}
