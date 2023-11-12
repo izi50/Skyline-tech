@@ -1,0 +1,47 @@
+/* Parent div style starts here */
+.table-main{
+    margin: auto;
+    width: 100%;
+    text-align: left;
+    margin-left: 160px;
+    
+}
+/* Margin top for the table to give space btwn the table and the body */ 
+table{
+    margin-top: 30px;
+}
+/* Style to give the th and td borders */
+table, th, td{
+    border-collapse: collapse;
+    padding: 8px 30px;
+    border: 1px solid #8cb0d3;
+}
+
+/* Styling for the table head */
+th{
+    background-color: #6a6abe;
+    color: #fff;
+}
+/* Styling for the caption */
+caption{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: cursive;
+    color: #6a6abe;
+    font-weight: bolder;
+
+}
+/* background color styling of even rows of the table */
+tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.299);}
+
+/* background color styling of even rows of the table */
+tr:nth-child(odd){
+    background-color: aliceblue;
+}
+
+/* Hover effect styling of the table */
+tr:hover{
+    background-color: #6a6abe;
+    color: #fff;
+}
