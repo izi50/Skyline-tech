@@ -1,0 +1,58 @@
+/* Parent div style starts here */
+.table-main{
+    margin: auto;
+    width: 60%;
+    text-align: left;
+    
+}
+ /* Margin top for the table to give space btwn the table and the body */
+table{
+    margin-top: 30px;
+}
+/* Style to give the th and td borders */
+table, th, td{
+    border-collapse: collapse;
+    padding: 15px;
+    border-bottom: 1px solid gray;
+}
+
+/* Styling for the table head */
+th{
+    background-color: #6a6abe;
+    color: #fff;
+}
+/* Styling for the caption */
+caption{
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 10px;
+}
+
+/* Styling for the table data above 60% under table head called "Scores" */
+.good{
+background-color: green;
+color: #fff; 
+padding: 2px; 
+border-radius: 4px;}
+
+/* Styling for the table data above 60% under table head called "Grades" */
+.grade1{
+    background-color: rgb(38, 216, 38);
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;}
+
+/* Styling for the table data below 60% under table head called "Scores" */    
+.fail{
+background-color: rgb(210, 149, 149);
+color: #fff; 
+padding: 1px; 
+border-radius: 4px;
+font-size: 20px; }   
+
+/* * Styling for the table data above 60% under table head called "Grades" */
+.grade0{
+    background-color: rgb(210, 149, 149);
+    border-radius: 5px;
+    color: #fff;
+    padding: 5px;}
